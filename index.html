@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Enmma Apparrel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/flowbite@1.6.5/dist/flowbite.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
 </head>
-<body>
+<body class="bg-gray-100">
+
+<!-- Navbar -->
+<nav class="bg-gray-900 text-white fixed top-0 w-full z-50">
+  <div class="container mx-auto flex items-center justify-between px-4 py-4">
+      <a class="flex items-center space-x-2" href="#">
+          <img src="logo.png" alt="Logo" class="h-10 w-10 object-cover">
+          <span class="text-lg font-bold">Enma Apparel</span>
+      </a>
+      <ul class="flex space-x-6">
+          <li><a class="hover:text-gray-300" href="#products">Produk</a></li>
+          <li><a class="hover:text-gray-300" href="#home">Tentang</a></li>
+          <li><a class="hover:text-gray-300" href="#contact">Kontak</a></li>
+      </ul>
+  </div>
+</nav>
+
     
 </body>
 </html>
