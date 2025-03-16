@@ -11,7 +11,13 @@
         body {
             font-family: 'Inter', sans-serif;
         }
-    </style>
+     html {
+        scroll-behavior: smooth;
+    }
+    body {
+        font-family: 'Inter', sans-serif;
+    }
+</style>
 </head>
 <body class="bg-gray-100">
 
@@ -20,11 +26,12 @@
   <div class="container mx-auto flex items-center justify-between px-4 py-4">
       <a class="flex items-center space-x-2" href="#">
           <img src="logo.png" alt="Logo" class="h-10 w-10 object-cover">
+          <img src="enma.png" alt="Logo" class="h-10 w-10 object-cover">
           <span class="text-lg font-bold">Enma Apparel</span>
       </a>
       <ul class="flex space-x-6">
-          <li><a class="hover:text-gray-300" href="#products">Produk</a></li>
-          <li><a class="hover:text-gray-300" href="#home">Tentang</a></li>
+          <li><a class="hover:text-gray-300" href="#produk">Produk</a></li>
+          <li><a class="hover:text-gray-300" href="#Tentang">Tentang</a></li>
           <li><a class="hover:text-gray-300" href="#contact">Kontak</a></li>
       </ul>
   </div>
@@ -92,7 +99,7 @@
   </button>
 </div>
 <!-- Tentang Kami -->
-<section id="about" class="container mx-auto px-4 py-16">
+<section id="Tentang" class="container mx-auto px-4 py-16">
     <div id="about-carousel" class="relative w-full" data-carousel="slide">
       <div class="relative overflow-hidden rounded-lg md:h-96">
         <div class="duration-700 ease-in-out carousel-item" data-carousel-item>
@@ -124,6 +131,24 @@
       <button type="button" class="absolute top-1/2 right-0 z-30 transform -translate-y-1/2 px-4 py-2 bg-gray-800 text-white rounded-full" data-carousel-next>
         &#10095;
       </button>
+    </div>
+  </section>
+
+  <!-- Kategori Produk -->
+<section id="produk" class="container mx-auto px-4 py-16">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="relative">
+        <img src="x.png" alt="Pria" class="w-full h-auto rounded-lg shadow-lg">
+        <a href="#" class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-black text-white px-6 py-2 rounded-lg font-bold">PANSER →</a>
+      </div>
+      <div class="relative">
+        <img src="logo.png" alt="Anak" class="w-full h-auto rounded-lg shadow-lg">
+        <a href="#" class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-black text-white px-6 py-2 rounded-lg font-bold">OUR →</a>
+      </div>
+      <div class="relative">
+        <img src="custom.jpg" alt="Wanita" class="w-full h-auto rounded-lg shadow-lg">
+        <a href="#" class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-black text-white px-6 py-2 rounded-lg font-bold">CUSTOM →</a>
+      </div>
     </div>
   </section>
     
