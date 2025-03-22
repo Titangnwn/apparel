@@ -167,7 +167,7 @@
               <!-- Slide 1 -->
               <div class="min-w-full flex flex-col md:flex-row gap-4 md:gap-8 items-center p-4 carousel-item">
                   <div class="w-full md:w-1/2">
-                      <img src="logo.png" alt="Store Image 1" class="rounded-lg shadow-lg w-full block">
+                      <img src="logo.png" alt="Store Image 1" class="rounded-lg shadow-lg w-full block" onerror="this.style.display='block'; this.src='default.png';">
                   </div>
                   <div class="w-full md:w-1/2 text-center md:text-left">
                       <h2 class="text-xl md:text-3xl font-bold text-gray-900 mb-4">Enma Apparel</h2>
@@ -179,7 +179,7 @@
               <!-- Slide 2 -->
               <div class="min-w-full flex flex-col md:flex-row gap-4 md:gap-8 items-center p-4 carousel-item">
                   <div class="w-full md:w-1/2">
-                      <img src="x.png" alt="Store Image 2" class="rounded-lg shadow-lg w-full block">
+                      <img src="x.png" alt="Store Image 2" class="rounded-lg shadow-lg w-full block" onerror="this.style.display='block'; this.src='default.png';">
                   </div>
                   <div class="w-full md:w-1/2 text-center md:text-left">
                       <h2 class="text-xl md:text-3xl font-bold text-gray-900 mb-4">Kolaborasi Kami</h2>
@@ -199,6 +199,14 @@
       </button>
   </div>
 </section>
+
+<style>
+  img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+  }
+</style>
 
 <script>
   const carousel = document.getElementById('carousel-inner');
@@ -238,6 +246,7 @@
       updateCarousel();
   });
 </script>
+
 
   
  <!-- Daftar Produk -->
