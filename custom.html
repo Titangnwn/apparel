@@ -22,7 +22,7 @@
 <body class="bg-gray-100">
 
 <!-- Navbar -->
-<nav class="bg-gray-900 text-white fixed top-0 w-full z-50 animate__animated animate__fadeInDown">
+<nav class="bg-blue-900 text-white fixed top-0 w-full z-50 animate__animated animate__fadeInDown">
     <div class="container mx-auto flex items-center justify-between px-4 py-4">
         <a class="flex items-center space-x-2" href="#">
             <img src="logo.png" alt="Logo" class="h-10 w-10 object-cover">
@@ -41,26 +41,13 @@
         <div class="max-w-4xl mx-auto bg-white shadow-md rounded-md overflow-hidden flex flex-col md:flex-row">
             <!-- Gambar Produk -->
             <div class="md:w-1/2">
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="calcio3.jpg" class="w-full h-full object-cover" alt="Jersey Special 1">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="custom.jpg" class="w-full h-full object-cover" alt="Jersey Special 2">
-                        </div>
-                    </div>
-                    <!-- Navigasi Swiper -->
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-pagination"></div>
-                </div>
+                <img src="custom.jpg" class="w-full h-full object-cover" alt="Jersey Special">
             </div>
             <!-- Deskripsi Produk -->
             <div class="md:w-1/2 p-6 flex flex-col justify-center">
-                <h5 class="text-lg font-semibold">Jersey Special dari Panser</h5>
-                <p class="text-gray-600">Rp 200.000</p>
-                <p class="mt-2 text-gray-500">Jersey edisi spesial dengan bahan berkualitas tinggi, nyaman dipakai, dan desain eksklusif.</p>
+                <h5 class="text-lg font-semibold">Jersey custom</h5>
+                <p class="text-gray-600">Rp 125.000</p>
+                <p class="mt-2 text-gray-500">Kreasikan Jersey mu disini bebas sesukamu.</p>
                 <div class="mt-4">
                     <label for="size" class="block text-sm font-medium text-gray-700">Pilih Ukuran:</label>
                     <select id="size" class="mt-1 block w-full py-2 px-3 border border-gray-300 rounded-md">
@@ -79,19 +66,6 @@
     </div>
 </section>
 
-<script>
-    var swiper = new Swiper('.swiper-container', {
-        loop: true,
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-    });
-</script>
 
 
 <!-- Footer -->
