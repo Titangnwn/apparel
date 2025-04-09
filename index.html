@@ -160,123 +160,143 @@
 
 <!-- Tentang Kami -->
 <section id="Tentang" class="container mx-auto px-4 py-16">
-  <div id="about-carousel" class="relative w-full overflow-hidden" data-carousel="slide">
-      <div class="relative overflow-hidden rounded-lg md:h-96">
-          <!-- Slide Container -->
-          <div class="flex transition-transform duration-700 ease-in-out w-full" id="carousel-inner">
-              <!-- Slide 1 -->
-              <div class="min-w-full flex flex-col md:flex-row gap-4 md:gap-8 items-center p-4 carousel-item">
-                  <div class="w-full md:w-1/2">
-                      <img src="logo.png" alt="Store Image 1" class="rounded-lg shadow-lg w-full block" onerror="this.style.display='block'; this.src='default.png';">
-                  </div>
-                  <div class="w-full md:w-1/2 text-center md:text-left">
-                      <h2 class="text-xl md:text-3xl font-bold text-gray-900 mb-4">Enma Apparel</h2>
-                      <p class="text-sm md:text-base text-gray-700 mb-4">
-                          Enma Apparel adalah toko yang menyediakan berbagai jersey sepak bola dengan kualitas terbaik. Kami berkomitmen untuk memberikan produk berkualitas dengan harga terjangkau bagi para pecinta sepak bola.
-                      </p>
-                  </div>
-              </div>
-              <!-- Slide 2 -->
-              <div class="min-w-full flex flex-col md:flex-row gap-4 md:gap-8 items-center p-4 carousel-item">
-                  <div class="w-full md:w-1/2">
-                      <img src="x.png" alt="Store Image 2" class="rounded-lg shadow-lg w-full block" onerror="this.style.display='block'; this.src='default.png';">
-                  </div>
-                  <div class="w-full md:w-1/2 text-center md:text-left">
-                      <h2 class="text-xl md:text-3xl font-bold text-gray-900 mb-4">Kolaborasi Kami</h2>
-                      <p class="text-sm md:text-base text-gray-700">
-                          Kami sudah menjalin kerja sama dengan klub dari Bandung dan telah merilis jersey kerja sama dengan format Home dan Away.
-                      </p>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <!-- Navigation Buttons -->
-      <button type="button" class="absolute top-1/2 left-2 z-30 transform -translate-y-1/2 px-2 py-2 bg-gray-800 text-white rounded-full text-xs md:text-base" id="prevBtn">
-          &#10094;
-      </button>
-      <button type="button" class="absolute top-1/2 right-2 z-30 transform -translate-y-1/2 px-2 py-2 bg-gray-800 text-white rounded-full text-xs md:text-base" id="nextBtn">
-          &#10095;
-      </button>
-  </div>
-</section>
-
-<style>
-  img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-  }
-</style>
-
-<script>
-  const carousel = document.getElementById('carousel-inner');
-  const prevBtn = document.getElementById('prevBtn');
-  const nextBtn = document.getElementById('nextBtn');
-  let index = 0;
+    <div id="about-carousel" class="relative w-full overflow-hidden" data-carousel="slide">
+        <div class="relative overflow-hidden rounded-lg md:h-96">
+            <!-- Slide Container -->
+            <div class="flex transition-transform duration-700 ease-in-out w-full" id="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="min-w-full flex flex-col md:flex-row gap-4 md:gap-8 items-center p-4 carousel-item">
+                    <div class="w-full md:w-1/2">
+                        <img src="logo.png" alt="Store Image 1" class="rounded-lg shadow-lg w-full block" onerror="this.style.display='block'; this.src='default.png';">
+                    </div>
+                    <div class="w-full md:w-1/2 text-center md:text-left">
+                        <h2 class="text-xl md:text-3xl font-bold text-gray-900 mb-4">Enma Apparel</h2>
+                        <p class="text-sm md:text-base text-gray-700 mb-4">
+                            Enma Apparel adalah toko yang menyediakan berbagai jersey sepak bola dengan kualitas terbaik. Kami berkomitmen untuk memberikan produk berkualitas dengan harga terjangkau bagi para pecinta sepak bola.
+                        </p>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="min-w-full flex flex-col md:flex-row gap-4 md:gap-8 items-center p-4 carousel-item">
+                    <div class="w-full md:w-1/2">
+                        <img src="x.png" alt="Store Image 2" class="rounded-lg shadow-lg w-full block" onerror="this.style.display='block'; this.src='default.png';">
+                    </div>
+                    <div class="w-full md:w-1/2 text-center md:text-left">
+                        <h2 class="text-xl md:text-3xl font-bold text-gray-900 mb-4">Kolaborasi Kami</h2>
+                        <p class="text-sm md:text-base text-gray-700">
+                            Kami sudah menjalin kerja sama dengan klub dari Bandung dan telah merilis jersey kerja sama dengan format Home dan Away.
+                        </p>
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="min-w-full flex flex-col md:flex-row gap-4 md:gap-8 items-center p-4 carousel-item">
+                    <div class="w-full md:w-1/2">
+                        <img src="ありがとう @loba_harkos.png" alt="Store Image 3" class="rounded-lg shadow-lg w-full block" onerror="this.style.display='block'; this.src='default.png';">
+                    </div>
+                    <div class="w-full md:w-1/2 text-center md:text-left">
+                        <h2 class="text-xl md:text-3xl font-bold text-gray-900 mb-4">Kolaborasi Kami</h2>
+                        <p class="text-sm md:text-base text-gray-700">
+                            Kami Juga Mencoba menjalin kolaborasi salah satu komunitas di bandung yang memiliki fokus pada jejepangan dan kami memberikan jersey tersebut dengan variasi ala nuansa jepang.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navigation Buttons -->
+        <button type="button" class="absolute top-1/2 left-2 z-30 transform -translate-y-1/2 px-2 py-2 bg-gray-800 text-white rounded-full text-xs md:text-base" id="prevBtn">
+            &#10094;
+        </button>
+        <button type="button" class="absolute top-1/2 right-2 z-30 transform -translate-y-1/2 px-2 py-2 bg-gray-800 text-white rounded-full text-xs md:text-base" id="nextBtn">
+            &#10095;
+        </button>
+    </div>
+  </section>
   
-  function updateCarousel() {
-      carousel.style.transform = `translateX(-${index * 100}%)`;
-  }
-
-  nextBtn.addEventListener('click', () => {
-      index = (index + 1) % 2;
-      updateCarousel();
-  });
-
-  prevBtn.addEventListener('click', () => {
-      index = (index - 1 + 2) % 2;
-      updateCarousel();
-  });
-
-  // Swipe gesture support for mobile
-  let touchStartX = 0;
-  let touchEndX = 0;
+  <style>
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+  </style>
   
-  carousel.addEventListener('touchstart', (e) => {
-      touchStartX = e.changedTouches[0].screenX;
-  });
+  <script>
+    const carousel = document.getElementById('carousel-inner');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    let index = 0;
+    const totalSlides = 3; // Diubah dari 2 menjadi 3
   
-  carousel.addEventListener('touchend', (e) => {
-      touchEndX = e.changedTouches[0].screenX;
-      if (touchStartX - touchEndX > 50) {
-          index = (index + 1) % 2;
-      } else if (touchEndX - touchStartX > 50) {
-          index = (index - 1 + 2) % 2;
-      }
-      updateCarousel();
-  });
-</script>
-
-
+    function updateCarousel() {
+        carousel.style.transform = `translateX(-${index * 100}%)`;
+    }
+  
+    nextBtn.addEventListener('click', () => {
+        index = (index + 1) % totalSlides;
+        updateCarousel();
+    });
+  
+    prevBtn.addEventListener('click', () => {
+        index = (index - 1 + totalSlides) % totalSlides;
+        updateCarousel();
+    });
+  
+    // Swipe gesture support for mobile
+    let touchStartX = 0;
+    let touchEndX = 0;
+    
+    carousel.addEventListener('touchstart', (e) => {
+        touchStartX = e.changedTouches[0].screenX;
+    });
+    
+    carousel.addEventListener('touchend', (e) => {
+        touchEndX = e.changedTouches[0].screenX;
+        if (touchStartX - touchEndX > 50) {
+            index = (index + 1) % totalSlides;
+        } else if (touchEndX - touchStartX > 50) {
+            index = (index - 1 + totalSlides) % totalSlides;
+        }
+        updateCarousel();
+    });
+  </script>
+  
   
  <!-- Daftar Produk -->
 <section id="produk" class="container mx-auto px-4 py-16">
     <h2 class="text-3xl font-bold text-center text-gray-900 mb-8">Daftar Produk</h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
         <!-- Produk 1 -->
-      <div class="relative overflow-hidden rounded-lg shadow-lg">
+        <div class="relative overflow-hidden rounded-lg shadow-lg">
             <img src="x.png" alt="Jersey 1" class="w-full h-70 object-cover">
             <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2">
-                <a href="panser.html" class="bg-white text-black px-6 py-2 rounded-lg font-bold btn-animate">Panser →</a>
+                <a href="panser.html" class="bg-white text-black px-3 py-1.5 rounded-md font-semibold text-sm btn-animate">Panser →</a>
             </div>
         </div>
         <!-- Produk 2 -->
         <div class="relative overflow-hidden rounded-lg shadow-lg">
             <img src="logo.png" alt="Jersey 2" class="w-full h-70 object-cover">
             <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2">
-                <a href="our.html" class="bg-white text-black px-6 py-2 rounded-lg font-bold btn-animate">Our →</a>
+                <a href="our.html" class="bg-white text-black px-3 py-1.5 rounded-md font-semibold text-sm btn-animate">Our →</a>
             </div>
         </div>
         <!-- Produk 3 -->
         <div class="relative overflow-hidden rounded-lg shadow-lg">
             <img src="custom.jpg" alt="Jersey 3" class="w-full h-70 object-cover">
             <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2">
-                <a href="custom.html" class="bg-white text-black px-6 py-2 rounded-lg font-bold btn-animate">Custom →</a>
+                <a href="custom.html" class="bg-white text-black px-3 py-1.5 rounded-md font-semibold text-sm btn-animate">Custom →</a>
+            </div>
+        </div>
+        <!-- Produk 4 -->
+        <div class="relative overflow-hidden rounded-lg shadow-lg">
+            <img src="ありがとう @loba_harkos.png" alt="Jersey 4" class="w-full h-70 object-cover">
+            <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2">
+                <a href="produk4.html" class="bg-white text-black px-3 py-1.5 rounded-md font-semibold text-sm btn-animate">LobaHarkos →</a>
             </div>
         </div>
     </div>
-    
 </section>
+
+
   <!-- Kontak Section -->
 <section id="contact" class="py-10 bg-white">
     <div class="container mx-auto px-4">
